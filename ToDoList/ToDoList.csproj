@@ -1,0 +1,11 @@
+<!--If you need to create an executable program with a UI, add <OutputType>Exe</OutputType> to the <PropertyGroup> element-->
+
+<!--run $ dotnet restore (from within ToDoList folder) once all required code is added to .csproj files-->
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
