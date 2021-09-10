@@ -25,7 +25,7 @@ _This application has the following functionality:_
 ## Setup/Installation Requirements
 
 * _Clone this repository. To clone using HTTPS, click on the green download button above the list of files and click on the clipboard icon to save the repository URL._
-[![Clone button](src/assets/images/clone_button.png)](#)
+[![Clone button](assets/images/clone_button.png)](#)
 
 * _Open your terminal._
 * _Navigate to the directory (such as your Desktop) where you want the cloned directory._
