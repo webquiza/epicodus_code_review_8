@@ -1,5 +1,3 @@
-<!--run $ dotnet restore (from within ToDoList folder) once all required code is added to .csproj files-->
-
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

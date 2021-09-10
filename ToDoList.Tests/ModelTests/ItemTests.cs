@@ -1,5 +1,3 @@
-// Relevant lesson https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/test-driven-development-with-c/arrange-act-assert
-
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using ToDoList.Models;
