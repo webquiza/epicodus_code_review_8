@@ -8,13 +8,11 @@ namespace Bakery.Tests
   [TestClass]
   public class BreadTests
   {
-
     [TestMethod]
     public void BreadConstructor_CreatesInstanceOfBread_Bread()
     {
      // testing code will go here
     }
-
   }
 
   [TestClass]
@@ -26,5 +24,4 @@ namespace Bakery.Tests
      // testing code will go here
     }
   }  
-
 }
