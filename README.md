@@ -2,25 +2,32 @@
 
 #### By _**Carlos Urquiza**_
 
-#### _{Brief description of application}._
+#### _C# console application for Pierre's Bakery._
 
 ## Technologies Used
 
 * _C#_
-* _{}_
-* _{}_
-* _{}_
+* _.NET 5.0_
+* _MSTest_
 * _Git_
-
-
 
 ## Description
 
 _This application has the following functionality:_
 
-* _._
-* _._
-* _._
+* _There are two classes: one for Bread and one for Pastry._
+* _When the user runs the application, they receive a prompt with a welcome message along with the cost for both Bread and Pastry._
+* _The user can specify how many loaves of Bread and how many Pastrys they'd like._
+* _The application returns the total cost of the order._
+* _Pierre's Bakery offers the following deals:_
+
+```
+Bread: Buy 2, get 1 free (every 3rd loaf of bread is free.). A single loaf costs $5, two loaves costs $10, and three loaves cost $10.
+
+Pastry: Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9, and six pastries costs $10.
+```
+
+* _All functionality for the models are tested using MSTest._
 
 ## Setup/Installation Requirements
 
