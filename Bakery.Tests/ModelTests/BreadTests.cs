@@ -11,8 +11,22 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadConstructor_CreatesInstanceOfBread_Bread()
     {
-      Bread newBread = new Bread();
+      Bread newBread = new Bread(5);
       Assert.AreEqual(typeof(Bread), newBread.GetType());
+    }
+
+    [TestMethod]
+    public void GetBreadCost_ReturnsBreadCost_Int()
+    {
+      //Arrange
+      int breadCost = 5;
+      Bread newBread = new Bread(breadCost);
+
+      //Act
+      int result = newBread.BreadCost;
+
+      //Assert
+      Assert.AreEqual(breadCost, result);
     }
   }  
 }
