@@ -13,15 +13,5 @@ namespace Bakery.Tests
     {
      // testing code will go here
     }
-  }
-
-  [TestClass]
-  public class PastryTests
-  {
-    [TestMethod]
-    public void PastryConstructor_CreatesInstanceOfPastry_Pastry()
-    {
-     // testing code will go here
-    }
   }  
 }
