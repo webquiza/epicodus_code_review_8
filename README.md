@@ -17,7 +17,7 @@ _This application has the following functionality:_
 
 * _There are two classes: one for Bread and one for Pastry._
 * _When the user runs the application, they receive a prompt with a welcome message along with the cost for both Bread and Pastry._
-* _The user can specify how many loaves of Bread and how many Pastrys they'd like._
+* _The user can specify how many loaves of bread and how many pastries they'd like._
 * _The application returns the total cost of the order._
 * _Pierre's Bakery offers the following deals:_
 
