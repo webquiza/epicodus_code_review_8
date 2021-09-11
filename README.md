@@ -31,6 +31,8 @@ Pastry: Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9
 
 ## Setup/Installation Requirements
 
+* **Before taking the following installation steps, ensure you have [C#, .NET](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-c-and-net) and [dotnet script](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-dotnet-script) installed on your computer.** 
+
 * _Clone this repository. To clone using HTTPS, click on the green download button above the list of files and click on the clipboard icon to save the repository URL._
 [![Clone button](assets/images/clone_button.png)](#)
 
@@ -38,10 +40,19 @@ Pastry: Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9
 * _Navigate to the directory (such as your Desktop) where you want the cloned directory._
 * _Type `git clone` and paste the URL you copied._
 * _Press Enter._
-* _{}._
-* _{}._
-* _{}._
-* _{}._
+* _Open project via your preferred code editor._
+
+`To run tests:`
+
+* _Navigate to `Bakery.Tests` by running `cd Bakery.Tests`._
+* _Run `dotnet restore` to retrieve and install the packages we listed in `.csproj`._
+* _Run `dotnet test`._
+
+`To run the console application:`
+
+* _Navigate to `Bakery` by running `cd Bakery`._
+* _Run `dotnet restore` to retrieve and install the packages we listed in `.csproj`._
+* _Run `dotnet run`._
 
 
 ## Known Bugs
