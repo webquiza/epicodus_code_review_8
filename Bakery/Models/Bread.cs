@@ -4,7 +4,7 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    public int BreadCost { get; }
+    public int BreadCost { get; set; }
 
     public Bread(int breadCost)
     {
