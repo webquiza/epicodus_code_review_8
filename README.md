@@ -40,7 +40,6 @@ Pastry: Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9
 * _Navigate to the directory (such as your Desktop) where you want the cloned directory._
 * _Type `git clone` and paste the URL you copied._
 * _Press Enter._
-* _Open project via your preferred code editor._
 
 `To run tests:`
 
