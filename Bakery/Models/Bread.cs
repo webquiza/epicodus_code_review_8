@@ -11,5 +11,12 @@ namespace Bakery.Models
     {
       BreadQuantity = breadQuantity;
     }
+
+    public int TallyBreadCost()
+    {
+      int breadDeal = BreadCost * ((BreadQuantity - (BreadQuantity % 3)) / 3);
+      int tallyBreadCost = (BreadQuantity * BreadCost) - breadDeal;
+      return tallyBreadCost;
+    } 
   }
 }

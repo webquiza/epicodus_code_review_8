@@ -42,5 +42,35 @@ namespace Bakery.Tests
        //Assert
        Assert.AreEqual(breadQuantity, result);
      }
+
+     [TestMethod]
+     public void TallyBreadCost_ReturnsBreadCostTimesBreadQuantity_Int()
+     {
+       //Arrange
+       int cartBreadQuantity = 1;
+       int tallyBreadCostCheck = 5;
+       Bread newBread = new Bread (cartBreadQuantity);
+
+      //Act
+      int tallyBreadCost = newBread.TallyBreadCost();
+       
+       //Assert
+       Assert.AreEqual(tallyBreadCostCheck, tallyBreadCost);
+     }
+
+     [TestMethod]
+     public void TallyBreadCost_ReturnsBreadCostDeal_Int()
+     {
+       //Arrange
+       int cartBreadQuantity = 3;
+       int tallyBreadCostCheck = 10;
+       Bread newBread = new Bread(cartBreadQuantity);
+       //Act
+       int tallyBreadCost = newBread.TallyBreadCost();
+
+       //Assert
+       Assert.AreEqual(tallyBreadCostCheck, tallyBreadCost);
+     }
+
   }  
 }
